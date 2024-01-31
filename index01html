@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>introduction to css</title>
+    </head>
+    <boby>
+        <h1> about us </h1>
+        <p class="about">We offer servives such as web design computer
+             skills digital marketing etc </p>
+             <h2> Contact </h2>
+        <p class="contact">We offer servives such as web design computer
+             skills digital marketing etc </p>
+        <style type="text/css">
+        body 
+    {background-color:"red";
+        font-family: 'Times New Roman', Times, serif; 
+    }
+    
+            
+        */body
+        {
+            background-color: 
+        }
+        h1{color: rgb(72, 48, 95) ;
+        text-decoration: underline; 
+        font-style: italic;
+        text-transform: uppercase;
+    }
+    .about{
+
+    }
+     </style>
+    </boby>
+</html>

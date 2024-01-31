@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>label,fieldset & legend</title>
+</head>
+<body>
+    <form action="index2.html" method="post">
+    <fieldset> 
+        <p>Username
+            <input type="Text" Name = Username size="15" maxlength="30" placeholder ="Enter Username"/>
+            </P>
+            <p>Password:
+            <input type="Password" name="Password" size="15" maxlength="10" placeholder ="Enter password"/>
+            <p/>
+            <p>Email:
+            <input type="email" name="email" size="30" maxlength="30" placeholder="enter email"/>
+            </p>
+            <p>Phone Number
+                <input type="number" name="number" size="10" maxlength="15" placeholder="enter phone number"/>
+                </p>
+            <P>Date of birth
+                <Input type="date" name="date" size="10" maxlength="15" placeholder="enter date of birth"/>
+                </P>                 
+                 <legend>CONTACT DETAIls</legend>
+                 <label>Age:<input type="number" name="Age"/></label><br/>
+              Gender:
+              <input id="female" type="checkbox" name="Gender" value="f"/>
+              <label for="female"> Female</label>  
+              <input id="male" type="checkbox" name="Gender" value="M"/>
+              <label for="male"> Male</label>
+              </fieldset>
+              <fieldset>
+                <label for="username">username</label>
+                <input type="text" name="username" required="required"/>
+                <br/>
+                <label for="Name">Name</label>
+                <label for="password">password</label>
+                <input type="password" name="password" required="required"/>
+                <br/>
+                <label for="Email">email</label>
+                <input type="email" name="email" required="required"/>
+                <br/>
+                <label for="comment"> comment</label>
+                <br/>
+                <label for="here about">How did you hear about us?</label>
+                <select name="referer"><option value="google">google</option>
+                    <option value="Fire fox">Fire fox</option>
+                    <option value="Ask me">Ask me</option>
+                    <option value="opera mini">Oper mini</option>
+                    <option value="chrome">Chrome</option>
+                </select>
+                <br/>
+                <textarea name="comment" cols="10" rows="10">Thank you 4 coming</textarea>
+              </fieldset> 
+              <input type="submit" value="Login"/> 
+              <form/> 
+             </body>
+             </html>
+            
+       
+    
+  

@@ -1,0 +1,29 @@
+.headertext{
+    display:flex;
+    gap: 30px;
+    margin-left:130px;
+}
+*{
+    margin:0;
+    padding:0px;
+}
+.headercolor{
+    background-color: rgb(43, 43, 112);
+}
+.my
+{
+    display: flex;
+    gap: 30px;
+}
+.first-image
+{
+    position: relative;
+}
+.blog1
+{
+position:absolute;
+top: 0;
+left: 0;
+
+}
+.
